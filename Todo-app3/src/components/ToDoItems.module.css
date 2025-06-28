@@ -1,0 +1,10 @@
+.items{
+   margin: 5px;
+  font-size: 15px;
+text-align: left;
+margin-right: 10px;
+}
+.kg-button{
+  min-width: 80px;
+  margin-right: 80px;
+}
