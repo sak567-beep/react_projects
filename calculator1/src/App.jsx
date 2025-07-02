@@ -16,9 +16,9 @@ function App(){
   }
   return <div className=" bg-gray-800 flex  justify-center items-center text-white h-screen w-screen">
 <div className="bg-gray-900 w-64  h-auto rounded-2xl border-4 border-gray-100">
- <Input></Input>
+ <Input result={result}></Input>
  <Brand></Brand>
- <Keyboard clearScreen={clearScreen} handleClick={handleClick()}></Keyboard>
+ <Keyboard clearScreen={clearScreen} handleClick={handleClick} calculate={calculate}></Keyboard>
 </div>
   </div>
 }
