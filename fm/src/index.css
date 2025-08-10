@@ -1,0 +1,25 @@
+*{
+  background-color: black;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  gap:50px;
+  justify-content: center;
+  align-items: center;
+}
+.square{
+  height: 200px;
+  width:200px;
+  background-color: crimson;
+  border: 5px solid white;
+}
+.circle{
+  height: 200px;
+  width:200px;
+  background-color: pink;
+  border: 5px solid white;
+border-radius: 50%;
+margin-top: 20px;
+padding: 10px;
+}
